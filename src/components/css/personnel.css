@@ -1,0 +1,7 @@
+.table_wrapper{width:100%;}
+.ivu-table-body {overflow: hidden !important;}
+
+.ivu-table .demo-table-info-cell-name {
+  background-color: #2db7f5;
+  color: #fff;
+}

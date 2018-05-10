@@ -1,0 +1,2 @@
+webpackJsonp([22],{WY0s:function(e,t,n){"use strict";var r=function(){var e=this,t=e.$createElement;e._self._c;return e._m(0)},l=[function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("div",[n("h1",[e._v("home")])])}],s={render:r,staticRenderFns:l};t.a=s},wUZA:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r=n("WY0s"),l=n("VU/8"),s=l(null,r.a,!1,null,null,null);t.default=s.exports}});
+//# sourceMappingURL=22.biz-union.js.map

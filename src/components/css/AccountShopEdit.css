@@ -1,0 +1,178 @@
+/*header*/
+.addHeader{height: 47px;border-bottom: 1px dashed #efefef;}
+.addHeader a>img{padding-top:5px;}
+.addHeader p{font-size:19px;line-height:40px;font-weight:400;color:#666666;text-align: center;}
+
+.formBox{padding-top: 20px;}
+.ivu-form .ivu-form-item-label {
+  text-align: right;
+  vertical-align: middle;
+  float: left;
+  font-size: 14px;
+  color: #333;
+  line-height: 1;
+  padding: 10px 12px 10px 0;
+  box-sizing: border-box;
+}
+/*错误提示*/
+.errorTip{padding-left:15px;height: 32px;line-height: 32px;font-size: 12px;color:#ffa56f;}
+
+/*roleInfo_box*/
+.roleInfo_box_app,.roleInfo_box_pc{min-height:100px;height: 500px;overflow-y: auto;margin-bottom: 20px;}
+.roleInfo_header{height:56px;line-height: 56px;background-color:#ececec;color: #585858;text-align: center;font-size: 14px;}
+
+.roleInfo_body{height: 230px;overflow-x: hidden;overflow-y: auto;margin-bottom:30px;border-bottom: 1px solid #ececec;border-left: 1px solid #ececec;border-right: 1px solid #ececec;font-size: 14px;}
+.roleInfo_body p{text-align: center;padding-top:3%;}
+.roleInfo_body p.p_role_top{text-align: center;padding-top:10% !important;}
+.roleInfo_body h6{font-size: 14px;text-align: center;vertical-align: middle;line-height: 80px !important;}
+.roleborder_right{width:1px;height:10px;display:inline-block;float: right}
+.roleInfo_line{ border-right: 1px solid #ececec;border-left: 1px solid #ececec}
+.roleInfo_line p{vertical-align: middle}
+
+/*复选框*/
+.ivu-checkbox-group-item {
+  width: 100% !important;
+}
+
+.ivu-tree-title {
+  display: inline-block;
+  /* font-size: 14px; */
+  margin: 0;
+  /* padding: 0 4px; */
+  border-radius: 3px;
+  cursor: pointer;
+  vertical-align: text-bottom;
+  color: #495060;
+  transition: all .2s ease-in-out;
+}
+.ivu-tree ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+
+.checkboxtree_list>ul{
+  width: 45%;
+  display: inline-block;
+}
+
+/*see--iscroll*/
+
+/* #wrapper,#wrapper2 {
+   position:relative;
+   z-index:1;
+   top:0;
+   left:0;
+   width:100%;
+   height: 200px;
+   background:#fff;
+   overflow:hidden;
+ }
+
+ #scroller,#scroller2 {
+   position:relative;
+   -webkit-tap-highlight-color:rgba(0,0,0,0);
+   float:left;
+   width:100%;
+   padding:0;
+   height: 200px;
+   overflow: hidden;
+ }*/
+
+/*checked*/
+.padding_left{padding-left: 5%;}
+.margin_bottom{margin-bottom: 3%;}
+.margin_top{margin-top: 2%;}
+.checkbox_quanxuan{vertical-align: sub;}
+
+/*tree*/
+.ivu-tree-arrow {
+  cursor: pointer;
+  width: 20px;
+  margin-right: 10px;
+  text-align: center;
+  display: inline-block;
+}
+.ivu-icon-arrow-right-b:before {
+  content: url("../../../static/img/ico_unfold.png");
+  font-size: 26px;
+}
+
+
+.ivu-tree-arrow-open i {
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.ivu-tree-arrow-open>.ivu-icon-arrow-right-b:before {
+  content: url("../../../static/img/ico_unjian.png");
+  font-size: 26px;
+}
+.ivu-checkbox-wrapper {
+  cursor: pointer;
+  font-size: 12px;
+  display: inline-block;
+  margin-right: 8px;
+  vertical-align: top;
+  padding-top: 3px;
+}
+
+.ivu-tree ul li {
+  list-style: none;
+  margin:0;
+  padding: 0;
+  white-space: nowrap;
+  outline: 0;
+}
+/**/
+.ivu-checkbox {
+  display: inline-block;
+  vertical-align: middle;
+  white-space: nowrap;
+  cursor: pointer;
+  outline: 0;
+  line-height: 1;
+  position: relative;
+  width: 20px;
+  height: 18px;
+}
+.ivu-checkbox-checked .ivu-checkbox-inner {
+  border-color: #ccc !important;
+  background-color: #fff !important;
+}
+.ivu-checkbox-indeterminate .ivu-checkbox-inner {
+  background-color: #fff;
+  border-color: #fff;
+}
+.ivu-checkbox-indeterminate .ivu-checkbox-inner {
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.ivu-checkbox-inner {
+  display: inline-block;
+  width:18px;
+  height: 18px;
+  position: relative;
+  top: 1px;
+  left: 0;
+  border: 1px solid #dddee1;
+  border-radius: 2px;
+  background-color: #fff;
+  /* transition: border-color .2s ease-in-out,background-color .2s ease-in-out; */
+}
+.ivu-checkbox-checked .ivu-checkbox-inner:after {
+  content:url("../../../static/img/ico_fit.png");
+  display: table;
+  width: 6px;
+  height:6px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 2px solid #fff;
+  border-top: 0;
+  border-left: 0;
+  -ms-transform: rotate(0deg) scale(1);
+  transform: rotate(0deg) scale(1);
+  transition: all .2s ease-in-out;
+}

@@ -1,0 +1,9 @@
+.table_wrapper{width:100%;}
+.ivu-table-body {
+  overflow: hidden !important;
+  padding-bottom: 20px;
+  background: #fff;
+}
+.layout-content-main{
+  height: 600px;
+}

@@ -1,0 +1,35 @@
+/*header*/
+.addHeader{height: 47px;border-bottom: 1px dashed #efefef;}
+.addHeader a>img{padding-top:5px;}
+.addHeader p{font-size:19px;line-height:40px;font-weight:400;color:#666666;text-align: center;}
+
+.formBox{padding-top: 20px;}
+.ivu-form .ivu-form-item-label {
+  text-align: right;
+  vertical-align: middle;
+  float: left;
+  font-size: 14px;
+  color: #333;
+  line-height: 1;
+  padding: 10px 12px 10px 0;
+  box-sizing: border-box;
+}
+/*错误提示*/
+.errorTip{padding-left:15px;height: 32px;line-height: 32px;font-size: 12px;color:#ffa56f;}
+/*下拉三角*/
+.ivu-icon-arrow-down-b:before {  content: "\F104";  color: #db3528;  }
+
+
+.ivu-icon-ios-arrow-right:before {
+  content: "\F3D3" !important;
+}
+
+
+.ivu-cascader .ivu-input {
+  display: block;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  padding: 4px 18px 4px 4px;
+}
